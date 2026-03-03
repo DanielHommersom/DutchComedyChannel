@@ -1,65 +1,102 @@
-import Image from "next/image";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardActions from "@mui/material/CardActions";
+import TicketButton from "@/app/ticketbutton";
+import { getAffiliateUrl } from "@/app/affiliatelinks";
+
+const comedians = [
+  {
+    name: "Jochem Myjer",
+    description: "Een van Nederland's meest geliefde cabaretiers met uitverkochte shows door het hele land.",
+    path: "/artiest/jochem-myjer",
+  },
+  {
+    name: "Youp van 't Hek",
+    description: "Legendarische cabaretier bekend om zijn scherpe maatschappijkritiek en hilarische shows.",
+    path: "/artiest/youp-van-t-hek",
+  },
+  {
+    name: "Claudia de Breij",
+    description: "Veelzijdige cabaretière, presentatrice en zangeres met een unieke stijl.",
+    path: "/artiest/claudia-de-breij",
+  },
+  {
+    name: "Najib Amhali",
+    description: "Bekroonde stand-up comedian met een eigen kijk op het Nederlandse multiculturele leven.",
+    path: "/artiest/najib-amhali",
+  },
+  {
+    name: "Brigitte Kaandorp",
+    description: "Iconische cabaretière met observationele humor over het dagelijks leven.",
+    path: "/artiest/brigitte-kaandorp",
+  },
+  {
+    name: "Hans Teeuwen",
+    description: "Grensverleggende cabaretier bekend om zijn absurdistische en provocerende shows.",
+    path: "/artiest/hans-teeuwen",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <Box>
+      {/* Hero */}
+      <Box
+        sx={{
+          py: { xs: 8, md: 14 },
+          textAlign: "center",
+          background: "linear-gradient(180deg, #1A1A1A 0%, #0A0A0A 100%)",
+          borderBottom: "1px solid #2A2A2A",
+        }}
+      >
+        <Container maxWidth="md">
+          <Typography variant="h1" sx={{ fontSize: { xs: "2.5rem", md: "4rem" }, mb: 2 }}>
+            Dutch Comedy Channel
+          </Typography>
+          <Typography variant="h5" color="text.secondary" sx={{ mb: 4 }}>
+            De beste Nederlandse comedians op één plek. Koop direct tickets voor uitverkochte shows.
+          </Typography>
+          <TicketButton affiliateUrl={getAffiliateUrl("/comedy")} label="Bekijk alle shows" />
+        </Container>
+      </Box>
+
+      {/* Comedian grid */}
+      <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
+        <Typography variant="h2" sx={{ fontSize: { xs: "1.75rem", md: "2.5rem" }, mb: 1 }}>
+          Populaire comedians
+        </Typography>
+        <Typography color="text.secondary" sx={{ mb: 5 }}>
+          Tickets voor de grootste Nederlandse cabaretiers
+        </Typography>
+
+        <Grid container spacing={3}>
+          {comedians.map((comedian) => (
+            <Grid key={comedian.name} size={{ xs: 12, sm: 6, md: 4 }}>
+              <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
+                <CardContent sx={{ flexGrow: 1 }}>
+                  <Typography variant="h6" gutterBottom>
+                    {comedian.name}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {comedian.description}
+                  </Typography>
+                </CardContent>
+                <CardActions sx={{ p: 2, pt: 0 }}>
+                  <TicketButton
+                    affiliateUrl={getAffiliateUrl(comedian.path)}
+                    label="Tickets"
+                    fullWidth
+                  />
+                </CardActions>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Container>
+    </Box>
   );
 }

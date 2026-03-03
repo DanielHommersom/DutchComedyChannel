@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/shows/layout,_N_T_/shows/[slug]/layout,_N_T_/shows/[slug]/page,_N_T_/shows/youp-van-t-hek-eindspel"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/shows/$d$slug/__PAGE__",
+    "/shows/$d$slug",
+    "/shows",
+    "/_index",
+    "/_head"
+  ]
+}

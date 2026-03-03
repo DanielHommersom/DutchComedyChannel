@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/artiesten/layout,_N_T_/artiesten/[slug]/layout,_N_T_/artiesten/[slug]/page,_N_T_/artiesten/jochem-myjer"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/artiesten/$d$slug/__PAGE__",
+    "/artiesten/$d$slug",
+    "/artiesten",
+    "/_index",
+    "/_head"
+  ]
+}
