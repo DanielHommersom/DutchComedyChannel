@@ -49,11 +49,20 @@ export default function Home() {
         sx={{
           py: { xs: 8, md: 14 },
           textAlign: "center",
-          background: "linear-gradient(180deg, #1A1A1A 0%, #0A0A0A 100%)",
+          position: "relative",
+          backgroundImage: "url('/jumbotron.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           borderBottom: "1px solid #2A2A2A",
+          "&::before": {
+            content: '""',
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(180deg, rgba(10,5,15,0.72) 0%, rgba(10,5,15,0.88) 100%)",
+          },
         }}
       >
-        <Container maxWidth="md">
+        <Container maxWidth="md" sx={{ position: "relative" }}>
           <Typography variant="h1" sx={{ fontSize: { xs: "2.5rem", md: "4rem" }, mb: 2 }}>
             Dutch Comedy Channel
           </Typography>

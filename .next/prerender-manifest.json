@@ -50,246 +50,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/about": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/about",
-      "dataRoute": "/about.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/brigitte-kaandorp": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/brigitte-kaandorp.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/claudia-de-breij": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/claudia-de-breij.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/guido-weijers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/guido-weijers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/hans-teeuwen": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/hans-teeuwen.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/jochem-myjer": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/jochem-myjer.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/najib-amhali": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/najib-amhali.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/rayen-panday": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/rayen-panday.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten/youp-van-t-hek": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten/[slug]",
-      "dataRoute": "/artiesten/youp-van-t-hek.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/artiesten": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/artiesten",
-      "dataRoute": "/artiesten.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -343,7 +103,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/brigitte-kaandorp-gewoon-thuis": {
+    "/pages/about": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -356,8 +116,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/brigitte-kaandorp-gewoon-thuis.rsc",
+      "srcRoute": "/pages/about",
+      "dataRoute": "/pages/about.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -367,7 +127,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/claudia-de-breij-hartje": {
+    "/pages/artiesten/brigitte-kaandorp": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -380,8 +140,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/claudia-de-breij-hartje.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/brigitte-kaandorp.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -391,7 +151,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/claudia-de-breij-hartje-den-haag": {
+    "/pages/artiesten/claudia-de-breij": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -404,8 +164,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/claudia-de-breij-hartje-den-haag.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/claudia-de-breij.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -415,7 +175,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/guido-weijers-onbevangen": {
+    "/pages/artiesten/guido-weijers": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -428,8 +188,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/guido-weijers-onbevangen.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/guido-weijers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -439,7 +199,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/hans-teeuwen-stront": {
+    "/pages/artiesten/hans-teeuwen": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -452,8 +212,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/hans-teeuwen-stront.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/hans-teeuwen.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -463,7 +223,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/jochem-myjer-alles-goed": {
+    "/pages/artiesten/jochem-myjer": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -476,8 +236,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/jochem-myjer-alles-goed.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/jochem-myjer.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -487,7 +247,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/jochem-myjer-alles-goed-rotterdam": {
+    "/pages/artiesten/najib-amhali": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -500,8 +260,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/jochem-myjer-alles-goed-rotterdam.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/najib-amhali.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -511,7 +271,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/najib-amhali-reset": {
+    "/pages/artiesten/rayen-panday": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -524,8 +284,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/najib-amhali-reset.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/rayen-panday.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -535,7 +295,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/rayen-panday-echt-waar": {
+    "/pages/artiesten/youp-van-t-hek": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -548,8 +308,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/rayen-panday-echt-waar.rsc",
+      "srcRoute": "/pages/artiesten/[slug]",
+      "dataRoute": "/pages/artiesten/youp-van-t-hek.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -559,7 +319,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/youp-van-t-hek-eindspel": {
+    "/pages/artiesten": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -572,8 +332,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows/[slug]",
-      "dataRoute": "/shows/youp-van-t-hek-eindspel.rsc",
+      "srcRoute": "/pages/artiesten",
+      "dataRoute": "/pages/artiesten.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -583,7 +343,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows": {
+    "/pages/shows/brigitte-kaandorp-gewoon-thuis": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -596,8 +356,248 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/shows",
-      "dataRoute": "/shows.rsc",
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/brigitte-kaandorp-gewoon-thuis.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/claudia-de-breij-hartje": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/claudia-de-breij-hartje.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/claudia-de-breij-hartje-den-haag": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/claudia-de-breij-hartje-den-haag.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/guido-weijers-onbevangen": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/guido-weijers-onbevangen.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/hans-teeuwen-stront": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/hans-teeuwen-stront.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jochem-myjer-alles-goed": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jochem-myjer-alles-goed.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jochem-myjer-alles-goed-rotterdam": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jochem-myjer-alles-goed-rotterdam.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/najib-amhali-reset": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/najib-amhali-reset.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/rayen-panday-echt-waar": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/rayen-panday-echt-waar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/youp-van-t-hek-eindspel": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/youp-van-t-hek-eindspel.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows",
+      "dataRoute": "/pages/shows.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -609,7 +609,7 @@
     }
   },
   "dynamicRoutes": {
-    "/artiesten/[slug]": {
+    "/pages/artiesten/[slug]": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -621,11 +621,11 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "routeRegex": "^/artiesten/([^/]+?)(?:/)?$",
-      "dataRoute": "/artiesten/[slug].rsc",
+      "routeRegex": "^/pages/artiesten/([^/]+?)(?:/)?$",
+      "dataRoute": "/pages/artiesten/[slug].rsc",
       "fallback": null,
       "fallbackRouteParams": [],
-      "dataRouteRegex": "^/artiesten/([^/]+?)\\.rsc$",
+      "dataRouteRegex": "^/pages/artiesten/([^/]+?)\\.rsc$",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
@@ -636,7 +636,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/shows/[slug]": {
+    "/pages/shows/[slug]": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -648,11 +648,11 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "routeRegex": "^/shows/([^/]+?)(?:/)?$",
-      "dataRoute": "/shows/[slug].rsc",
+      "routeRegex": "^/pages/shows/([^/]+?)(?:/)?$",
+      "dataRoute": "/pages/shows/[slug].rsc",
       "fallback": null,
       "fallbackRouteParams": [],
-      "dataRouteRegex": "^/shows/([^/]+?)\\.rsc$",
+      "dataRouteRegex": "^/pages/shows/([^/]+?)\\.rsc$",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",

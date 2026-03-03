@@ -5,9 +5,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
 const navLinks = [
-  { label: "Artiesten", href: "/artiesten" },
-  { label: "Shows", href: "/shows" },
-  { label: "Over ons", href: "/about" },
+  { label: "Artiesten", href: "/pages/artiesten" },
+  { label: "Shows", href: "/pages/shows" },
+  { label: "Over ons", href: "/pages/about" },
 ];
 
 export default function Navbar() {
