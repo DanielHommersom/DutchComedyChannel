@@ -4,8 +4,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/pages/about/page": "/pages/about",
-  "/pages/artiesten/[slug]/page": "/pages/artiesten/[slug]",
   "/pages/artiesten/page": "/pages/artiesten",
+  "/pages/comedians/[slug]/page": "/pages/comedians/[slug]",
   "/pages/shows/[slug]/page": "/pages/shows/[slug]",
   "/pages/shows/page": "/pages/shows"
 }

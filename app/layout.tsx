@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Dutch Comedy Channel",
   description: "De beste Nederlandse comedians en hun shows op één plek.",
+  icons: { icon: "/DCC.png", apple: "/DCC.png" },
   openGraph: {
     title: "Dutch Comedy Channel",
     description: "De beste Nederlandse comedians en hun shows op één plek.",

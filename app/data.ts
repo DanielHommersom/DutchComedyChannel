@@ -1,3 +1,10 @@
+export type PastShow = {
+  title: string;
+  date: string; // ISO 8601
+  venue: string;
+  city: string;
+};
+
 export type Comedian = {
   name: string;
   slug: string;
@@ -5,6 +12,9 @@ export type Comedian = {
   description: string;
   genre: string[];
   affiliatePath: string;
+  photo?: string; // URL — replace with real photo
+  instagramPostIds?: string[]; // Replace with real Instagram post IDs from your page
+  pastShows?: PastShow[];
 };
 
 export type Show = {
@@ -26,6 +36,12 @@ export const comedians: Comedian[] = [
       "Jochem Myjer is een van de populairste cabaretiers van Nederland. Met uitverkochte arena-shows en miljoenen fans combineert hij schitterend slapstick met hartveroverende verhalen over het leven.",
     genre: ["Cabaret", "Familie"],
     affiliatePath: "/artiest/jochem-myjer",
+    instagramPostIds: [], // Voeg hier echte Instagram post-ID's toe
+    pastShows: [
+      { title: "Jochem Myjer – De Magie van het Bestaan", date: "2024-03-15", venue: "Ziggo Dome", city: "Amsterdam" },
+      { title: "Jochem Myjer – De Magie van het Bestaan", date: "2024-04-20", venue: "Rotterdam Ahoy", city: "Rotterdam" },
+      { title: "Jochem Myjer – Toverij", date: "2022-11-05", venue: "GelreDome", city: "Arnhem" },
+    ],
   },
   {
     name: "Youp van 't Hek",
@@ -35,6 +51,12 @@ export const comedians: Comedian[] = [
       "Youp van 't Hek is een legendarische cabaretier die al decennialang het Nederlandse publiek aan het lachen én denken zet. Bekend om zijn compromisloze mening en schitterende woordkeuze.",
     genre: ["Cabaret", "Politiek"],
     affiliatePath: "/artiest/youp-van-t-hek",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Youp van 't Hek – Gouwe Ouwe Tour", date: "2024-01-12", venue: "Carré", city: "Amsterdam" },
+      { title: "Youp van 't Hek – Kalm aan!", date: "2023-02-18", venue: "De Doelen", city: "Rotterdam" },
+      { title: "Youp van 't Hek – Alles of Niets", date: "2021-09-24", venue: "TivoliVredenburg", city: "Utrecht" },
+    ],
   },
   {
     name: "Claudia de Breij",
@@ -44,6 +66,12 @@ export const comedians: Comedian[] = [
       "Claudia de Breij is cabaretière, presentatrice en zangeres in één. Haar shows zijn warm, grappig en ontroerend tegelijk — een unieke combinatie die haar tot een publiekslieveling maakt.",
     genre: ["Cabaret", "Muziek"],
     affiliatePath: "/artiest/claudia-de-breij",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Claudia de Breij – Alles Komt Goed", date: "2024-05-09", venue: "DeLaMar Theater", city: "Amsterdam" },
+      { title: "Claudia de Breij – Alles Komt Goed", date: "2024-06-22", venue: "Nationale Opera & Ballet", city: "Den Haag" },
+      { title: "Claudia de Breij – Kleur Bekennen", date: "2022-03-11", venue: "Stadsschouwburg", city: "Utrecht" },
+    ],
   },
   {
     name: "Najib Amhali",
@@ -53,6 +81,11 @@ export const comedians: Comedian[] = [
       "Najib Amhali is een bekroonde stand-up comedian die het multiculturele Nederland als geen ander weet te vatten. Zijn shows zijn raak, eerlijk en ontzettend grappig.",
     genre: ["Stand-up", "Maatschappij"],
     affiliatePath: "/artiest/najib-amhali",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Najib Amhali – Blank", date: "2023-11-03", venue: "AFAS Live", city: "Amsterdam" },
+      { title: "Najib Amhali – Welkom Terug", date: "2022-06-17", venue: "Luxor Theater", city: "Rotterdam" },
+    ],
   },
   {
     name: "Brigitte Kaandorp",
@@ -62,6 +95,11 @@ export const comedians: Comedian[] = [
       "Brigitte Kaandorp is een iconische cabaretière die al meer dan 30 jaar het publiek vermaakt met haar scherpe observaties over alledaagse situaties. Herkenbaar, hilarisch en tijdloos.",
     genre: ["Cabaret", "Observationeel"],
     affiliatePath: "/artiest/brigitte-kaandorp",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Brigitte Kaandorp – Niet Normaal", date: "2024-02-28", venue: "Stadsschouwburg", city: "Amsterdam" },
+      { title: "Brigitte Kaandorp – Typisch", date: "2022-10-14", venue: "Theater aan het Vrijthof", city: "Maastricht" },
+    ],
   },
   {
     name: "Hans Teeuwen",
@@ -71,6 +109,11 @@ export const comedians: Comedian[] = [
       "Hans Teeuwen staat bekend als een van de meest originele cabaretiers ter wereld. Zijn shows zijn absurdistisch, provocerend en altijd verrassend — niets is zoals je verwacht.",
     genre: ["Cabaret", "Absurdisme"],
     affiliatePath: "/artiest/hans-teeuwen",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Hans Teeuwen – Dat Dan Weer Wel", date: "2023-09-08", venue: "Paradiso", city: "Amsterdam" },
+      { title: "Hans Teeuwen – Trui", date: "2021-11-20", venue: "013", city: "Tilburg" },
+    ],
   },
   {
     name: "Guido Weijers",
@@ -80,6 +123,11 @@ export const comedians: Comedian[] = [
       "Guido Weijers is een van de snelst stijgende sterren in de Nederlandse comedy. Met zijn directe stijl en scherpe observaties verovert hij zalen door heel Nederland.",
     genre: ["Stand-up"],
     affiliatePath: "/artiest/guido-weijers",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Guido Weijers – Te Eerlijk", date: "2024-04-05", venue: "Luxor Theater", city: "Rotterdam" },
+      { title: "Guido Weijers – Zeg Het Maar", date: "2023-03-25", venue: "Melkweg", city: "Amsterdam" },
+    ],
   },
   {
     name: "Rayen Panday",
@@ -89,6 +137,11 @@ export const comedians: Comedian[] = [
       "Rayen Panday brengt verfrissende eerlijkheid op het podium. Zijn humoristische kijk op identiteit, cultuur en het moderne leven maakt hem tot een van de meest gevolgde comedians van dit moment.",
     genre: ["Stand-up", "Maatschappij"],
     affiliatePath: "/artiest/rayen-panday",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Rayen Panday – Raww", date: "2024-03-01", venue: "Muziekgebouw", city: "Eindhoven" },
+      { title: "Rayen Panday – Origin", date: "2023-01-14", venue: "Paard van Troje", city: "Den Haag" },
+    ],
   },
 ];
 
@@ -197,9 +250,21 @@ export function getShowsForComedian(comedianSlug: string): Show[] {
   return shows.filter((s) => s.comedianSlug === comedianSlug);
 }
 
+export function getRelatedComedians(currentSlug: string, count = 3): Comedian[] {
+  return comedians.filter((c) => c.slug !== currentSlug).slice(0, count);
+}
+
 export function formatDate(iso: string): string {
   return new Date(iso).toLocaleDateString("nl-NL", {
     weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+export function formatDateShort(iso: string): string {
+  return new Date(iso).toLocaleDateString("nl-NL", {
     day: "numeric",
     month: "long",
     year: "numeric",

@@ -42,7 +42,7 @@ export default function ShowsOverzicht() {
                 {comedian && (
                   <Typography
                     component="a"
-                    href={`/pages/artiesten/${comedian.slug}`}
+                    href={`/pages/comedians/${comedian.slug}`}
                     variant="body2"
                     color="primary"
                     sx={{ textDecoration: "none", display: "block", mb: 1.5, "&:hover": { textDecoration: "underline" } }}

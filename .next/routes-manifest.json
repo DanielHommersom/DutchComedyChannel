@@ -22,12 +22,12 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/pages/artiesten/[slug]",
-      "regex": "^/pages/artiesten/([^/]+?)(?:/)?$",
+      "page": "/pages/comedians/[slug]",
+      "regex": "^/pages/comedians/([^/]+?)(?:/)?$",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "namedRegex": "^/pages/artiesten/(?<nxtPslug>[^/]+?)(?:/)?$"
+      "namedRegex": "^/pages/comedians/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
       "page": "/pages/shows/[slug]",

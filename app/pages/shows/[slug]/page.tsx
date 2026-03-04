@@ -67,7 +67,7 @@ export default async function ShowPage({ params }: Props) {
                 <PersonIcon sx={{ color: "primary.main" }} />
                 <Typography
                   component="a"
-                  href={`/pages/artiesten/${comedian.slug}`}
+                  href={`/pages/comedians/${comedian.slug}`}
                   color="primary"
                   sx={{ textDecoration: "none", "&:hover": { textDecoration: "underline" } }}
                 >
@@ -93,7 +93,7 @@ export default async function ShowPage({ params }: Props) {
             <Typography color="text.secondary" sx={{ lineHeight: 1.8, mb: 4 }}>
               {comedian.description}
             </Typography>
-            <Button component="a" href={`/pages/artiesten/${comedian.slug}`} variant="outlined">
+            <Button component="a" href={`/pages/comedians/${comedian.slug}`} variant="outlined">
               Meer over {comedian.name}
             </Button>
 

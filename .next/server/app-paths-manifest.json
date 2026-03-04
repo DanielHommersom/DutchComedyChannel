@@ -4,8 +4,8 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/pages/about/page": "app/pages/about/page.js",
-  "/pages/artiesten/[slug]/page": "app/pages/artiesten/[slug]/page.js",
   "/pages/artiesten/page": "app/pages/artiesten/page.js",
+  "/pages/comedians/[slug]/page": "app/pages/comedians/[slug]/page.js",
   "/pages/shows/[slug]/page": "app/pages/shows/[slug]/page.js",
   "/pages/shows/page": "app/pages/shows/page.js"
 }

@@ -44,7 +44,7 @@ export default function ArtiestenOverzicht() {
               <CardActions sx={{ p: 2, pt: 0 }}>
                 <Button
                   component="a"
-                  href={`/artiesten/${comedian.slug}`}
+                  href={`/pages/comedians/${comedian.slug}`}
                   variant="outlined"
                   fullWidth
                 >
