@@ -26,6 +26,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <Script
           async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9T2BEB24VY"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9T2BEB24VY');
+          `}
+        </Script>
+        <Script
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3366446717708247"
           crossOrigin="anonymous"
           strategy="afterInteractive"
