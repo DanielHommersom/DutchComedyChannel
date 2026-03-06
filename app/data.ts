@@ -35,7 +35,7 @@ export const comedians: Comedian[] = [
     description:
       "Jochem Myjer is een van de populairste cabaretiers van Nederland. Met uitverkochte arena-shows en miljoenen fans combineert hij schitterend slapstick met hartveroverende verhalen over het leven.",
     genre: ["Cabaret", "Familie"],
-    affiliatePath: "/artiest/jochem-myjer",
+    affiliatePath: "/jochem-myjer",
     photo: "/artists/jochem_myjer.jpg",
     instagramPostIds: [],
     pastShows: [
@@ -51,7 +51,7 @@ export const comedians: Comedian[] = [
     description:
       "Claudia de Breij is cabaretière, presentatrice en zangeres in één. Haar shows zijn warm, grappig en ontroerend tegelijk — een unieke combinatie die haar tot een publiekslieveling maakt.",
     genre: ["Cabaret", "Muziek"],
-    affiliatePath: "/artiest/claudia-de-breij",
+    affiliatePath: "/claudia-de-breij",
     photo: "/artists/claudia_de_breij.jpg",
     instagramPostIds: [],
     pastShows: [
@@ -67,7 +67,7 @@ export const comedians: Comedian[] = [
     description:
       "Najib Amhali is een bekroonde stand-up comedian die het multiculturele Nederland als geen ander weet te vatten. Zijn shows zijn raak, eerlijk en ontzettend grappig.",
     genre: ["Stand-up", "Maatschappij"],
-    affiliatePath: "/artiest/najib-amhali",
+    affiliatePath: "/najib-amhali",
     photo: "/artists/najib-amhali.jpg",
     instagramPostIds: [],
     pastShows: [
@@ -82,7 +82,7 @@ export const comedians: Comedian[] = [
     description:
       "Brigitte Kaandorp is een iconische cabaretière die al meer dan 30 jaar het publiek vermaakt met haar scherpe observaties over alledaagse situaties. Herkenbaar, hilarisch en tijdloos.",
     genre: ["Cabaret", "Observationeel"],
-    affiliatePath: "/artiest/brigitte-kaandorp",
+    affiliatePath: "/brigitte-kaandorp",
     photo: "/artists/brigitte_kaandorp.png",
     instagramPostIds: [],
     pastShows: [
@@ -112,7 +112,7 @@ export const comedians: Comedian[] = [
     description:
       "Guido Weijers is een van de snelst stijgende sterren in de Nederlandse comedy. Met zijn directe stijl en scherpe observaties verovert hij zalen door heel Nederland.",
     genre: ["Stand-up"],
-    affiliatePath: "/artiest/guido-weijers",
+    affiliatePath: "/guido-weijers",
     photo: "/artists/guido_weijers.jpg",
     instagramPostIds: [],
     pastShows: [
@@ -127,7 +127,7 @@ export const comedians: Comedian[] = [
     description:
       "Rayen Panday brengt verfrissende eerlijkheid op het podium. Zijn humoristische kijk op identiteit, cultuur en het moderne leven maakt hem tot een van de meest gevolgde comedians van dit moment.",
     genre: ["Stand-up", "Maatschappij"],
-    affiliatePath: "/artiest/rayen-panday",
+    affiliatePath: "/rayen-panday",
     photo: "/artists/rayen_panday.jpg",
     instagramPostIds: [],
     pastShows: [
@@ -250,7 +250,7 @@ export const shows: Show[] = [
     date: "2026-04-12T20:00:00",
     venue: "Ziggo Dome",
     city: "Amsterdam",
-    affiliatePath: "/voorstelling/jochem-myjer-alles-goed-amsterdam",
+    affiliatePath: "/jochem-myjer",
   },
   {
     title: "Jochem Myjer – Alles Goed?",
@@ -259,7 +259,7 @@ export const shows: Show[] = [
     date: "2026-05-03T20:00:00",
     venue: "Rotterdam Ahoy",
     city: "Rotterdam",
-    affiliatePath: "/voorstelling/jochem-myjer-alles-goed-rotterdam",
+    affiliatePath: "/jochem-myjer",
   },
   {
     title: "Youp van 't Hek – Eindspel",
@@ -268,7 +268,7 @@ export const shows: Show[] = [
     date: "2026-04-18T20:15:00",
     venue: "Carré",
     city: "Amsterdam",
-    affiliatePath: "/voorstelling/youp-van-t-hek-eindspel",
+    affiliatePath: "/youp-van-t-hek",
   },
   {
     title: "Claudia de Breij – Hartje",
@@ -277,7 +277,7 @@ export const shows: Show[] = [
     date: "2026-04-25T20:00:00",
     venue: "DeLaMar Theater",
     city: "Amsterdam",
-    affiliatePath: "/voorstelling/claudia-de-breij-hartje",
+    affiliatePath: "/claudia-de-breij",
   },
   {
     title: "Claudia de Breij – Hartje",
@@ -286,7 +286,7 @@ export const shows: Show[] = [
     date: "2026-06-06T20:00:00",
     venue: "Nationale Opera & Ballet",
     city: "Den Haag",
-    affiliatePath: "/voorstelling/claudia-de-breij-hartje-den-haag",
+    affiliatePath: "/claudia-de-breij",
   },
   {
     title: "Najib Amhali – Reset",
@@ -295,7 +295,7 @@ export const shows: Show[] = [
     date: "2026-05-10T20:00:00",
     venue: "AFAS Live",
     city: "Amsterdam",
-    affiliatePath: "/voorstelling/najib-amhali-reset",
+    affiliatePath: "/najib-amhali",
   },
   {
     title: "Brigitte Kaandorp – Gewoon Thuis",
@@ -304,7 +304,7 @@ export const shows: Show[] = [
     date: "2026-05-22T20:00:00",
     venue: "Stadsschouwburg",
     city: "Utrecht",
-    affiliatePath: "/voorstelling/brigitte-kaandorp-gewoon-thuis",
+    affiliatePath: "/brigitte-kaandorp",
   },
   {
     title: "Guido Weijers – Onbevangen",
@@ -313,7 +313,7 @@ export const shows: Show[] = [
     date: "2026-04-30T20:00:00",
     venue: "Luxor Theater",
     city: "Rotterdam",
-    affiliatePath: "/voorstelling/guido-weijers-onbevangen",
+    affiliatePath: "/guido-weijers",
   },
   {
     title: "Rayen Panday – Echt Waar",
@@ -322,7 +322,7 @@ export const shows: Show[] = [
     date: "2026-05-16T20:00:00",
     venue: "Muziekgebouw",
     city: "Eindhoven",
-    affiliatePath: "/voorstelling/rayen-panday-echt-waar",
+    affiliatePath: "/rayen-panday",
   },
   // Hans Teeuwen – De Laffe Verlosser (real data from TopTicketShop)
   {
@@ -332,7 +332,7 @@ export const shows: Show[] = [
     date: "2026-06-11T20:00:00",
     venue: "Stadsschouwburg",
     city: "Antwerpen",
-    affiliatePath: "/hans-teeuwen-tickets/142239",
+    affiliatePath: "/hans-teeuwen",
   },
   {
     title: "Hans Teeuwen – De Laffe Verlosser",
@@ -341,7 +341,7 @@ export const shows: Show[] = [
     date: "2026-06-16T20:00:00",
     venue: "AFAS Circustheater",
     city: "Den Haag",
-    affiliatePath: "/hans-teeuwen-tickets/142158",
+    affiliatePath: "/hans-teeuwen",
   },
   {
     title: "Hans Teeuwen – De Laffe Verlosser",
@@ -350,7 +350,7 @@ export const shows: Show[] = [
     date: "2026-06-26T20:00:00",
     venue: "AFAS Live",
     city: "Amsterdam",
-    affiliatePath: "/hans-teeuwen-tickets/140516",
+    affiliatePath: "/hans-teeuwen",
   },
   {
     title: "Hans Teeuwen – De Laffe Verlosser",
@@ -359,7 +359,7 @@ export const shows: Show[] = [
     date: "2026-06-27T20:00:00",
     venue: "AFAS Live",
     city: "Amsterdam",
-    affiliatePath: "/hans-teeuwen-tickets/140517",
+    affiliatePath: "/hans-teeuwen",
   },
   // Jandino Asporaat (real data from TopTicketShop)
   {
@@ -369,7 +369,7 @@ export const shows: Show[] = [
     date: "2026-03-16T20:00:00",
     venue: "Schouwburg Hengelo",
     city: "Hengelo",
-    affiliatePath: "/jandino-asporaat-tickets/140884",
+    affiliatePath: "/jandino-asporaat",
   },
   {
     title: "Jandino Asporaat – Omdat je lult",
@@ -378,7 +378,7 @@ export const shows: Show[] = [
     date: "2026-03-19T20:15:00",
     venue: "Theater Sneek",
     city: "Sneek",
-    affiliatePath: "/jandino-asporaat-tickets/141088",
+    affiliatePath: "/jandino-asporaat",
   },
   {
     title: "Jandino Asporaat – Omdat je lult",
@@ -387,7 +387,7 @@ export const shows: Show[] = [
     date: "2026-03-25T20:15:00",
     venue: "Cultuurhuis De Klinker",
     city: "Winschoten",
-    affiliatePath: "/jandino-asporaat-tickets/141092",
+    affiliatePath: "/jandino-asporaat",
   },
   {
     title: "Jandino Asporaat – XL Show",
@@ -396,7 +396,7 @@ export const shows: Show[] = [
     date: "2026-12-04T20:00:00",
     venue: "Ahoy RTM Stage",
     city: "Rotterdam",
-    affiliatePath: "/jandino-asporaat-tickets/141066",
+    affiliatePath: "/jandino-asporaat",
   },
 ];
 

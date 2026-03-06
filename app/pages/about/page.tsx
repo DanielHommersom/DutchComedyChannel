@@ -46,7 +46,7 @@ export default function AboutPage() {
               color="primary"
               sx={{ textDecoration: "none", "&:hover": { textDecoration: "underline" } }}
             >
-              TopTicketShop.nl
+              #####
             </Typography>
             . Dit is een betrouwbare Nederlandse ticketverkoper met een breed aanbod aan
             theater- en comedytickets.

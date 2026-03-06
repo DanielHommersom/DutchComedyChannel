@@ -3,7 +3,7 @@ const BASE_URL = "https://www.topticketshop.nl";
 
 /**
  * Generate a tracked affiliate URL for a given show or comedian page.
- * @param path - the topticketshop.nl path, e.g. "/artiest/jochem-myjer"
+ * @param path - the topticketshop.nl path, e.g. "/jochem-myjer"
  */
 export function getAffiliateUrl(path: string): string {
   const url = new URL(`${BASE_URL}${path}`);

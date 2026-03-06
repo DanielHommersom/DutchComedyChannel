@@ -9,7 +9,7 @@ export default function Footer() {
       <Container maxWidth="lg">
         <Typography variant="body2" color="text.secondary" sx={{ mb: 3, lineHeight: 1.7 }}>
           <strong style={{ color: "inherit" }}>Affiliate-openbaarmaking:</strong> Dutch Comedy Channel
-          werkt samen met TopTicketShop.nl via een affiliate-partnerschap. Wanneer u via onze links
+          werkt samen met #####.nl via een affiliate-partnerschap. Wanneer u via onze links
           tickets koopt, ontvangen wij mogelijk een vergoeding. Dit heeft geen invloed op de prijs
           die u betaalt. Wij vermelden dit conform de richtlijnen van de{" "}
           <Typography
