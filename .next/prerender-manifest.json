@@ -151,6 +151,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pages/comedians/bert-visscher": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/bert-visscher.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pages/comedians/brigitte-kaandorp": {
       "experimentalBypassFor": [
         {
@@ -199,6 +223,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/pages/comedians/daniel-arends": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/daniel-arends.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/comedians/fred-van-leer": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/fred-van-leer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/pages/comedians/guido-weijers": {
       "experimentalBypassFor": [
         {
@@ -238,6 +310,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/pages/comedians/[slug]",
       "dataRoute": "/pages/comedians/hans-teeuwen.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/comedians/jandino-asporaat": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/jandino-asporaat.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -319,7 +415,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/pages/comedians/youp-van-t-hek": {
+    "/pages/comedians/roue-verveer": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -333,7 +429,55 @@
       ],
       "initialRevalidateSeconds": false,
       "srcRoute": "/pages/comedians/[slug]",
-      "dataRoute": "/pages/comedians/youp-van-t-hek.rsc",
+      "dataRoute": "/pages/comedians/roue-verveer.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/comedians/tineke-schouten": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/tineke-schouten.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/comedians/veldhuis-en-kemper": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/comedians/[slug]",
+      "dataRoute": "/pages/comedians/veldhuis-en-kemper.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -439,7 +583,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/pages/shows/hans-teeuwen-stront": {
+    "/pages/shows/hans-teeuwen-de-laffe-verlosser-amsterdam-1": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -453,7 +597,175 @@
       ],
       "initialRevalidateSeconds": false,
       "srcRoute": "/pages/shows/[slug]",
-      "dataRoute": "/pages/shows/hans-teeuwen-stront.rsc",
+      "dataRoute": "/pages/shows/hans-teeuwen-de-laffe-verlosser-amsterdam-1.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/hans-teeuwen-de-laffe-verlosser-amsterdam-2": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/hans-teeuwen-de-laffe-verlosser-amsterdam-2.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/hans-teeuwen-de-laffe-verlosser-antwerpen": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/hans-teeuwen-de-laffe-verlosser-antwerpen.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/hans-teeuwen-de-laffe-verlosser-den-haag": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/hans-teeuwen-de-laffe-verlosser-den-haag.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jandino-asporaat-omdat-je-lult-hengelo": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jandino-asporaat-omdat-je-lult-hengelo.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jandino-asporaat-omdat-je-lult-sneek": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jandino-asporaat-omdat-je-lult-sneek.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jandino-asporaat-omdat-je-lult-winschoten": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jandino-asporaat-omdat-je-lult-winschoten.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pages/shows/jandino-asporaat-xl-show-rotterdam": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pages/shows/[slug]",
+      "dataRoute": "/pages/shows/jandino-asporaat-xl-show-rotterdam.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

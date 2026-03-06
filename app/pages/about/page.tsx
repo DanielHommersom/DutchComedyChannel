@@ -26,7 +26,7 @@ export default function AboutPage() {
           <Typography color="text.secondary" sx={{ lineHeight: 1.8 }}>
             Dutch Comedy Channel is een onafhankelijk platform voor fans van Nederlandse comedy en
             cabaret. Wij brengen het beste Nederlandse comedyaanbod samen op één plek — van
-            uitverkochte arena-shows tot intieme theatervoorstellingen.
+            uitverkochte arena-shows tot kleine theatervoorstellingen.
           </Typography>
         </Box>
 
@@ -40,7 +40,7 @@ export default function AboutPage() {
             Voor het kopen van tickets werken wij samen met{" "}
             <Typography
               component="a"
-              href="https://www.topticketshop.nl"
+              href="####"
               target="_blank"
               rel="noopener noreferrer"
               color="primary"
@@ -60,10 +60,7 @@ export default function AboutPage() {
             Affiliatebeleid
           </Typography>
           <Typography color="text.secondary" sx={{ lineHeight: 1.8 }}>
-            Dutch Comedy Channel maakt gebruik van affiliatelinks. Dit betekent dat wanneer je via
-            onze website een ticket koopt, wij een kleine commissie ontvangen van onze
-            ticketpartner. Voor jou verandert er niets aan de prijs of het koopproces. Dit helpt
-            ons om het platform gratis en zonder advertenties aan te bieden.
+            Dutch Comedy Channel maakt gebruik van affiliatelinks. Wanneer je via onze website een ticket aanschaft, word je doorgestuurd naar een ticketpartner waar de aankoop wordt afgehandeld. Hiermee kunnen wij het platform blijven onderhouden en verder ontwikkelen.
           </Typography>
         </Box>
 
@@ -77,11 +74,11 @@ export default function AboutPage() {
             Vragen, suggesties of wil je een artiest toegevoegd zien? Stuur een e-mail naar{" "}
             <Typography
               component="a"
-              href="mailto:info@dutchcomedychannel.nl"
+              href="mailto:thecomedychannel101@gmail.com"
               color="primary"
               sx={{ textDecoration: "none", "&:hover": { textDecoration: "underline" } }}
             >
-              info@dutchcomedychannel.nl
+              thecomedychannel101@gmail.com
             </Typography>
             .
           </Typography>

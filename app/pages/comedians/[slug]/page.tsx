@@ -176,21 +176,6 @@ export default async function ComedianPage({ params }: Props) {
 
       <Divider sx={{ borderColor: "#2E1A3A" }} />
 
-      {/* ── Instagram Clips ── */}
-      <Box sx={{ bgcolor: "background.paper" }}>
-        <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
-          <Typography variant="h2" sx={{ fontSize: { xs: "1.6rem", md: "2.25rem" }, mb: 1 }}>
-            Instagram clips
-          </Typography>
-          <Typography color="text.secondary" sx={{ mb: 4 }}>
-            Fragmenten van {comedian.name} via Dutch Comedy Channel
-          </Typography>
-          <InstagramEmbeds postIds={comedian.instagramPostIds ?? []} />
-        </Container>
-      </Box>
-
-      <Divider sx={{ borderColor: "#2E1A3A" }} />
-
       {/* ── Past Shows ── */}
       <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
         <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1 }}>

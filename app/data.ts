@@ -36,26 +36,12 @@ export const comedians: Comedian[] = [
       "Jochem Myjer is een van de populairste cabaretiers van Nederland. Met uitverkochte arena-shows en miljoenen fans combineert hij schitterend slapstick met hartveroverende verhalen over het leven.",
     genre: ["Cabaret", "Familie"],
     affiliatePath: "/artiest/jochem-myjer",
-    instagramPostIds: [], // Voeg hier echte Instagram post-ID's toe
+    photo: "/artists/jochem_myjer.jpg",
+    instagramPostIds: [],
     pastShows: [
       { title: "Jochem Myjer – De Magie van het Bestaan", date: "2024-03-15", venue: "Ziggo Dome", city: "Amsterdam" },
       { title: "Jochem Myjer – De Magie van het Bestaan", date: "2024-04-20", venue: "Rotterdam Ahoy", city: "Rotterdam" },
       { title: "Jochem Myjer – Toverij", date: "2022-11-05", venue: "GelreDome", city: "Arnhem" },
-    ],
-  },
-  {
-    name: "Youp van 't Hek",
-    slug: "youp-van-t-hek",
-    tagline: "Scherpe maatschappijkritiek met een knipoog",
-    description:
-      "Youp van 't Hek is een legendarische cabaretier die al decennialang het Nederlandse publiek aan het lachen én denken zet. Bekend om zijn compromisloze mening en schitterende woordkeuze.",
-    genre: ["Cabaret", "Politiek"],
-    affiliatePath: "/artiest/youp-van-t-hek",
-    instagramPostIds: [],
-    pastShows: [
-      { title: "Youp van 't Hek – Gouwe Ouwe Tour", date: "2024-01-12", venue: "Carré", city: "Amsterdam" },
-      { title: "Youp van 't Hek – Kalm aan!", date: "2023-02-18", venue: "De Doelen", city: "Rotterdam" },
-      { title: "Youp van 't Hek – Alles of Niets", date: "2021-09-24", venue: "TivoliVredenburg", city: "Utrecht" },
     ],
   },
   {
@@ -66,6 +52,7 @@ export const comedians: Comedian[] = [
       "Claudia de Breij is cabaretière, presentatrice en zangeres in één. Haar shows zijn warm, grappig en ontroerend tegelijk — een unieke combinatie die haar tot een publiekslieveling maakt.",
     genre: ["Cabaret", "Muziek"],
     affiliatePath: "/artiest/claudia-de-breij",
+    photo: "/artists/claudia_de_breij.jpg",
     instagramPostIds: [],
     pastShows: [
       { title: "Claudia de Breij – Alles Komt Goed", date: "2024-05-09", venue: "DeLaMar Theater", city: "Amsterdam" },
@@ -81,6 +68,7 @@ export const comedians: Comedian[] = [
       "Najib Amhali is een bekroonde stand-up comedian die het multiculturele Nederland als geen ander weet te vatten. Zijn shows zijn raak, eerlijk en ontzettend grappig.",
     genre: ["Stand-up", "Maatschappij"],
     affiliatePath: "/artiest/najib-amhali",
+    photo: "/artists/najib-amhali.jpg",
     instagramPostIds: [],
     pastShows: [
       { title: "Najib Amhali – Blank", date: "2023-11-03", venue: "AFAS Live", city: "Amsterdam" },
@@ -95,6 +83,7 @@ export const comedians: Comedian[] = [
       "Brigitte Kaandorp is een iconische cabaretière die al meer dan 30 jaar het publiek vermaakt met haar scherpe observaties over alledaagse situaties. Herkenbaar, hilarisch en tijdloos.",
     genre: ["Cabaret", "Observationeel"],
     affiliatePath: "/artiest/brigitte-kaandorp",
+    photo: "/artists/brigitte_kaandorp.png",
     instagramPostIds: [],
     pastShows: [
       { title: "Brigitte Kaandorp – Niet Normaal", date: "2024-02-28", venue: "Stadsschouwburg", city: "Amsterdam" },
@@ -108,7 +97,8 @@ export const comedians: Comedian[] = [
     description:
       "Hans Teeuwen staat bekend als een van de meest originele cabaretiers ter wereld. Zijn shows zijn absurdistisch, provocerend en altijd verrassend — niets is zoals je verwacht.",
     genre: ["Cabaret", "Absurdisme"],
-    affiliatePath: "/artiest/hans-teeuwen",
+    affiliatePath: "/hans-teeuwen",
+    photo: "/artists/hans_teeuwen.jpeg",
     instagramPostIds: [],
     pastShows: [
       { title: "Hans Teeuwen – Dat Dan Weer Wel", date: "2023-09-08", venue: "Paradiso", city: "Amsterdam" },
@@ -123,6 +113,7 @@ export const comedians: Comedian[] = [
       "Guido Weijers is een van de snelst stijgende sterren in de Nederlandse comedy. Met zijn directe stijl en scherpe observaties verovert hij zalen door heel Nederland.",
     genre: ["Stand-up"],
     affiliatePath: "/artiest/guido-weijers",
+    photo: "/artists/guido_weijers.jpg",
     instagramPostIds: [],
     pastShows: [
       { title: "Guido Weijers – Te Eerlijk", date: "2024-04-05", venue: "Luxor Theater", city: "Rotterdam" },
@@ -137,10 +128,116 @@ export const comedians: Comedian[] = [
       "Rayen Panday brengt verfrissende eerlijkheid op het podium. Zijn humoristische kijk op identiteit, cultuur en het moderne leven maakt hem tot een van de meest gevolgde comedians van dit moment.",
     genre: ["Stand-up", "Maatschappij"],
     affiliatePath: "/artiest/rayen-panday",
+    photo: "/artists/rayen_panday.jpg",
     instagramPostIds: [],
     pastShows: [
       { title: "Rayen Panday – Raww", date: "2024-03-01", venue: "Muziekgebouw", city: "Eindhoven" },
       { title: "Rayen Panday – Origin", date: "2023-01-14", venue: "Paard van Troje", city: "Den Haag" },
+    ],
+  },
+  {
+    name: "Jandino Asporaat",
+    slug: "jandino-asporaat",
+    tagline: "Energieke stand-up met een uniek Curaçaos-Nederlands perspectief",
+    description:
+      "Jandino Asporaat is een van de meest populaire stand-up comedians van Nederland. Met zijn aanstekelijke energie, scherpe observaties en unieke achtergrond weet hij zalen door het hele land te laten schateren.",
+    genre: ["Stand-up", "Maatschappij"],
+    affiliatePath: "/jandino-asporaat",
+    photo: "/artists/jandino_asporaat.jpg",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Jandino Asporaat – Niks Te Lachen", date: "2024-02-10", venue: "AFAS Live", city: "Amsterdam" },
+      { title: "Jandino Asporaat – Niks Te Lachen", date: "2023-11-18", venue: "Ahoy", city: "Rotterdam" },
+    ],
+  },
+  {
+    name: "Daniel Arends",
+    slug: "daniel-arends",
+    tagline: "Flamboyant, grappig en ongeremd entertainment",
+    description:
+      "Daniel Arends is een veelzijdig entertainer die met zijn kleurrijke shows en aanstekelijke humor steevast uitverkochte theaters trekt. Van intiem cabaret tot grote zaal — Daniel levert altijd een onvergetelijke avond.",
+    genre: ["Cabaret", "Entertainment"],
+    affiliatePath: "/daniel-arends",
+    photo: "/artists/daniel_arends.jpg",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Daniel Arends – High Class Bitch", date: "2024-10-05", venue: "Theater De Lievekamp", city: "Oss" },
+      { title: "Daniel Arends – Had ik maar nooit zo aardig gedaan", date: "2024-03-22", venue: "Stadsschouwburg", city: "Amsterdam" },
+    ],
+  },
+  {
+    name: "Tineke Schouten",
+    slug: "tineke-schouten",
+    tagline: "De koningin van de Nederlandse cabaret",
+    description:
+      "Tineke Schouten is al decennialang een begrip in het Nederlandse cabaret. Met haar scherpe imitaties, herkenbare personages en onnavolgbare stijl blijft ze het publiek keer op keer verrassen.",
+    genre: ["Cabaret", "Imitatie"],
+    affiliatePath: "/tineke-schouten",
+    photo: "/artists/tineke_schouten.jpg",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Tineke Schouten – Femme Vitaal", date: "2024-11-09", venue: "Theater Markant Maashorst", city: "Uden" },
+      { title: "Tineke Schouten – Goud", date: "2022-04-14", venue: "Carré", city: "Amsterdam" },
+    ],
+  },
+  {
+    name: "Roue Verveer",
+    slug: "roue-verveer",
+    tagline: "Directe humor met een maatschappelijk hart",
+    description:
+      "Roue Verveer staat bekend om zijn no-nonsense stand-up waarbij hij maatschappelijke thema's met humor én ernst bespreekt. Zijn shows zijn eerlijk, scherp en raken je waar het telt.",
+    genre: ["Stand-up", "Maatschappij"],
+    affiliatePath: "/roue-verveer",
+    photo: "/artists/roue_verveer.png",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Roue Verveer – Op eigen risico", date: "2024-09-21", venue: "Stadsschouwburg", city: "Groningen" },
+      { title: "Roue Verveer – Onbewapend", date: "2022-05-07", venue: "Theater Rotterdam", city: "Rotterdam" },
+    ],
+  },
+  {
+    name: "Veldhuis & Kemper",
+    slug: "veldhuis-en-kemper",
+    tagline: "Het beste cabaretduo van Nederland",
+    description:
+      "Veldhuis & Kemper zijn een begrip in het Nederlandse cabaret. Met hun muzikale grappen, scherpe teksten en perfecte samenspel bezorgen René Veldhuis en Remco Kemper het publiek avond na avond een uitverkochte, hilarische show.",
+    genre: ["Cabaret", "Muziek"],
+    affiliatePath: "/veldhuis-en-kemper",
+    photo: "/artists/verlhuids_kemper.png",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Veldhuis & Kemper – Kunnen het niet laten", date: "2024-12-07", venue: "Carré", city: "Amsterdam" },
+      { title: "Veldhuis & Kemper – Helemaal Goed", date: "2022-11-19", venue: "TivoliVredenburg", city: "Utrecht" },
+    ],
+  },
+  {
+    name: "Bert Visscher",
+    slug: "bert-visscher",
+    tagline: "Meesterverteller met hart voor het kleine verhaal",
+    description:
+      "Bert Visscher is een unieke stem in het Nederlandse cabaret. Als meesterverteller weet hij met poëtische precisie en warme humor het publiek te raken. Zijn intieme shows zijn een ode aan het leven.",
+    genre: ["Cabaret", "Kleinkunst"],
+    affiliatePath: "/bert-visscher",
+    photo: "/artists/bert_visscher.jpg",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Bert Visscher – 65, dat zou je niet zeggen", date: "2024-10-17", venue: "Deventer Schouwburg", city: "Deventer" },
+      { title: "Bert Visscher – Het Leven is een Feestje", date: "2022-02-03", venue: "Parktheater", city: "Eindhoven" },
+    ],
+  },
+  {
+    name: "Fred van Leer",
+    slug: "fred-van-leer",
+    tagline: "Ongeremd, kleurrijk en altijd zichzelf",
+    description:
+      "Fred van Leer is een flamboyante entertainer die het publiek meeneemt in zijn wereld van humor, zelfreflectie en onvervalste eerlijkheid. Zijn shows zijn een explosie van energie, lach en emotie.",
+    genre: ["Cabaret", "Entertainment"],
+    affiliatePath: "/fred-van-leer",
+    photo: "/artists/fred_van_leer.png",
+    instagramPostIds: [],
+    pastShows: [
+      { title: "Fred van Leer – Ik weet het eigenlijk niet", date: "2024-09-13", venue: "Theater Rotterdam", city: "Rotterdam" },
+      { title: "Fred van Leer – Zo Ben Ik Nu Eenmaal", date: "2022-06-25", venue: "Carré", city: "Amsterdam" },
     ],
   },
 ];
@@ -210,15 +307,6 @@ export const shows: Show[] = [
     affiliatePath: "/voorstelling/brigitte-kaandorp-gewoon-thuis",
   },
   {
-    title: "Hans Teeuwen – Stront",
-    slug: "hans-teeuwen-stront",
-    comedianSlug: "hans-teeuwen",
-    date: "2026-06-14T20:15:00",
-    venue: "Paradiso",
-    city: "Amsterdam",
-    affiliatePath: "/voorstelling/hans-teeuwen-stront",
-  },
-  {
     title: "Guido Weijers – Onbevangen",
     slug: "guido-weijers-onbevangen",
     comedianSlug: "guido-weijers",
@@ -235,6 +323,80 @@ export const shows: Show[] = [
     venue: "Muziekgebouw",
     city: "Eindhoven",
     affiliatePath: "/voorstelling/rayen-panday-echt-waar",
+  },
+  // Hans Teeuwen – De Laffe Verlosser (real data from TopTicketShop)
+  {
+    title: "Hans Teeuwen – De Laffe Verlosser",
+    slug: "hans-teeuwen-de-laffe-verlosser-antwerpen",
+    comedianSlug: "hans-teeuwen",
+    date: "2026-06-11T20:00:00",
+    venue: "Stadsschouwburg",
+    city: "Antwerpen",
+    affiliatePath: "/hans-teeuwen-tickets/142239",
+  },
+  {
+    title: "Hans Teeuwen – De Laffe Verlosser",
+    slug: "hans-teeuwen-de-laffe-verlosser-den-haag",
+    comedianSlug: "hans-teeuwen",
+    date: "2026-06-16T20:00:00",
+    venue: "AFAS Circustheater",
+    city: "Den Haag",
+    affiliatePath: "/hans-teeuwen-tickets/142158",
+  },
+  {
+    title: "Hans Teeuwen – De Laffe Verlosser",
+    slug: "hans-teeuwen-de-laffe-verlosser-amsterdam-1",
+    comedianSlug: "hans-teeuwen",
+    date: "2026-06-26T20:00:00",
+    venue: "AFAS Live",
+    city: "Amsterdam",
+    affiliatePath: "/hans-teeuwen-tickets/140516",
+  },
+  {
+    title: "Hans Teeuwen – De Laffe Verlosser",
+    slug: "hans-teeuwen-de-laffe-verlosser-amsterdam-2",
+    comedianSlug: "hans-teeuwen",
+    date: "2026-06-27T20:00:00",
+    venue: "AFAS Live",
+    city: "Amsterdam",
+    affiliatePath: "/hans-teeuwen-tickets/140517",
+  },
+  // Jandino Asporaat (real data from TopTicketShop)
+  {
+    title: "Jandino Asporaat – Omdat je lult",
+    slug: "jandino-asporaat-omdat-je-lult-hengelo",
+    comedianSlug: "jandino-asporaat",
+    date: "2026-03-16T20:00:00",
+    venue: "Schouwburg Hengelo",
+    city: "Hengelo",
+    affiliatePath: "/jandino-asporaat-tickets/140884",
+  },
+  {
+    title: "Jandino Asporaat – Omdat je lult",
+    slug: "jandino-asporaat-omdat-je-lult-sneek",
+    comedianSlug: "jandino-asporaat",
+    date: "2026-03-19T20:15:00",
+    venue: "Theater Sneek",
+    city: "Sneek",
+    affiliatePath: "/jandino-asporaat-tickets/141088",
+  },
+  {
+    title: "Jandino Asporaat – Omdat je lult",
+    slug: "jandino-asporaat-omdat-je-lult-winschoten",
+    comedianSlug: "jandino-asporaat",
+    date: "2026-03-25T20:15:00",
+    venue: "Cultuurhuis De Klinker",
+    city: "Winschoten",
+    affiliatePath: "/jandino-asporaat-tickets/141092",
+  },
+  {
+    title: "Jandino Asporaat – XL Show",
+    slug: "jandino-asporaat-xl-show-rotterdam",
+    comedianSlug: "jandino-asporaat",
+    date: "2026-12-04T20:00:00",
+    venue: "Ahoy RTM Stage",
+    city: "Rotterdam",
+    affiliatePath: "/jandino-asporaat-tickets/141066",
   },
 ];
 

@@ -7,8 +7,6 @@ import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import PlaceIcon from "@mui/icons-material/PlaceOutlined";
 import CalendarIcon from "@mui/icons-material/CalendarTodayOutlined";
-import TicketButton from "@/app/ticketbutton";
-import { getAffiliateUrl } from "@/app/affiliatelinks";
 import { shows, getComedian, formatDate, formatTime } from "@/app/data";
 
 export const metadata = {
@@ -66,12 +64,8 @@ export default function ShowsOverzicht() {
                 </Box>
               </CardContent>
               <CardActions sx={{ px: 2, pb: 2 }}>
-                <TicketButton
-                  affiliateUrl={getAffiliateUrl(show.affiliatePath)}
-                  label="Koop tickets"
-                />
-                <Button component="a" href={`/pages/shows/${show.slug}`} variant="text" size="small">
-                  Details
+                <Button component="a" href={`/pages/shows/${show.slug}`} variant="outlined" fullWidth>
+                  Bekijk show
                 </Button>
               </CardActions>
             </Card>
