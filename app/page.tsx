@@ -38,7 +38,7 @@ export default function Home() {
             Dutch Comedy Channel
           </Typography>
           <Typography variant="h5" color="text.secondary" sx={{ mb: 4 }}>
-            De beste Nederlandse comedians op één plek. Koop direct tickets voor uitverkochte shows.
+            De beste Nederlandse comedians op één plek. Koop direct je tickets.
           </Typography>
           <TicketButton affiliateUrl={getAffiliateUrl("/cabaret-theater")} label="Bekijk alle shows" />
         </Container>
