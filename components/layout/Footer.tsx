@@ -8,10 +8,10 @@ export default function Footer() {
     <Box component="footer" sx={{ borderTop: "1px solid #2A2A2A", py: 5 }}>
       <Container maxWidth="lg">
         <Typography variant="body2" color="text.secondary" sx={{ mb: 3, lineHeight: 1.7 }}>
-          <strong style={{ color: "inherit" }}>Affiliate-openbaarmaking:</strong> Dutch Comedy Channel
-          werkt samen met #####.nl via een affiliate-partnerschap. Wanneer u via onze links
-          tickets koopt, ontvangen wij mogelijk een vergoeding. Dit heeft geen invloed op de prijs
-          die u betaalt. Wij vermelden dit conform de richtlijnen van de{" "}
+          <strong style={{ color: "inherit" }}>Dutch Comedy Channel</strong>
+          werkt samen met #####.nl maakt gebruik van affiliatelinks. 
+          Wanneer je via onze website een ticket aanschaft, word je doorgestuurd naar een ticketpartner waar de aankoop wordt afgehandeld. 
+          Hiermee kunnen wij het platform blijven onderhouden en verder ontwikkelen Wij vermelden dit conform de richtlijnen van de{" "}
           <Typography
             component="a"
             href="https://www.acm.nl"
