@@ -59,9 +59,24 @@ export default function ShowSearch({ items }: { items: ShowWithComedian[] }) {
           {filtered.map(({ show, comedian }) => (
             <Card key={show.slug}>
               <CardContent sx={{ pb: 1 }}>
-                <Typography variant="h6" gutterBottom>
-                  {show.title}
-                </Typography>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 0.5 }}>
+                  {comedian?.photo && (
+                    <Box
+                      component="img"
+                      src={comedian.photo}
+                      alt={comedian.name}
+                      sx={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", objectPosition: "top", flexShrink: 0 }}
+                    />
+                  )}
+                  <Typography
+                    component="a"
+                    href={`/pages/shows/${show.slug}`}
+                    variant="h6"
+                    sx={{ textDecoration: "none", color: "inherit", "&:hover": { color: "primary.main" } }}
+                  >
+                    {show.title}
+                  </Typography>
+                </Box>
                 {comedian && (
                   <Typography
                     component="a"

@@ -57,15 +57,24 @@ export default function ComedianSearch({ comedians }: { comedians: Comedian[] })
             <Grid key={comedian.slug} size={{ xs: 12, sm: 6, md: 4 }}>
               <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
                 <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography
-                    component="a"
-                    href={`/pages/comedians/${comedian.slug}`}
-                    variant="h6"
-                    gutterBottom
-                    sx={{ textDecoration: "none", color: "inherit", "&:hover": { color: "primary.main" } }}
-                  >
-                    {comedian.name}
-                  </Typography>
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1 }}>
+                    {comedian.photo && (
+                      <Box
+                        component="img"
+                        src={comedian.photo}
+                        alt={comedian.name}
+                        sx={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", objectPosition: "top", flexShrink: 0 }}
+                      />
+                    )}
+                    <Typography
+                      component="a"
+                      href={`/pages/comedians/${comedian.slug}`}
+                      variant="h6"
+                      sx={{ textDecoration: "none", color: "inherit", "&:hover": { color: "primary.main" }, lineHeight: 1.2 }}
+                    >
+                      {comedian.name}
+                    </Typography>
+                  </Box>
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
                     {comedian.tagline}
                   </Typography>
