@@ -7,7 +7,7 @@ const BASE_URL = "https://www.topticketshop.nl";
  */
 export function getAffiliateUrl(path: string): string {
   const url = new URL(`${BASE_URL}${path}`);
-  url.searchParams.set("affiliate", AFFILIATE_ID);
+  //url.searchParams.set("affiliate", AFFILIATE_ID);
   return url.toString();
 }
 

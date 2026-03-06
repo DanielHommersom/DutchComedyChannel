@@ -40,7 +40,7 @@ export default function Home() {
           <Typography variant="h5" color="text.secondary" sx={{ mb: 4 }}>
             De beste Nederlandse comedians op één plek. Koop direct tickets voor uitverkochte shows.
           </Typography>
-          <TicketButton affiliateUrl={getAffiliateUrl("/comedy")} label="Bekijk alle shows" />
+          <TicketButton affiliateUrl={getAffiliateUrl("/cabaret-theater")} label="Bekijk alle shows" />
         </Container>
       </Box>
 
