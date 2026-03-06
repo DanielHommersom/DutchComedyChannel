@@ -176,7 +176,7 @@ export default async function ComedianPage({ params }: Props) {
 
       <Divider sx={{ borderColor: "#2E1A3A" }} />
 
-      {/* ── Past Shows ── */}
+      {/* ── Past Shows ──
       <Container maxWidth="lg" sx={{ py: { xs: 6, md: 10 } }}>
         <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1 }}>
           <HistoryIcon sx={{ color: "text.secondary" }} />
@@ -234,7 +234,7 @@ export default async function ComedianPage({ params }: Props) {
         )}
       </Container>
 
-      <Divider sx={{ borderColor: "#2E1A3A" }} />
+      <Divider sx={{ borderColor: "#2E1A3A" }} /> */}
 
       {/* ── Meer Comedians ── */}
       <Box sx={{ bgcolor: "background.paper" }}>
